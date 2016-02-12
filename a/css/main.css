@@ -1,10 +1,11 @@
 html, body {
     height: 100%;
+    background-color: #eee;
 }
     /*title section*/
 
     .title {
-        height: 75%;
+        min-height: 75%;
         background-color: #208A96;
     }
 
@@ -24,11 +25,11 @@ html, body {
 
     .header {
         background-image: linear-gradient(rgba(32, 138, 150, 0.71), #208A96);
-        height: 10%;
+        min-height: 5%;
     }
 
     .header-text {
-        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Raleway', sans-serif;
     }
 
     .menu-header {
@@ -43,7 +44,7 @@ html, body {
         float: right;
     }
     .menu-list:hover{
-        color: white;
+        color: #eee;
         cursor: pointer;
     }
 
@@ -69,35 +70,41 @@ html, body {
         top: 60%;
     }
 
+    .title-desc-both {
+        position: absolute;
+        left: 15%;
+        top: 16%;
+    }
+
     .title-desc {
         font-family: 'Marcellus SC', serif;
         width: 30%;
     }
 
     #title-name {
-        position: absolute;
-        top: 18%;
-        left: 59%;
-        font-size: 60px;
+        width: auto;
+        font-size: 50px;
     }
 
     #title-wd {
-        position: absolute;
-        top: 28%;
-        left: 67%;
-        font-size: 45px;
+        width: auto;
+        font-size: 35px;
     }
 
     .rectangle {
+        position: absolute;
         width: 10px;
         height: 45%;
-        background: white;
+        background-color: #eee;
         top: 15%;
+    }
+
+    .rectangle-small {
+        height: 40%;
     }
 
 
     #rectangle1 {
-        position: absolute;
         left: 90%;
         top: 15%;
     }
@@ -105,20 +112,24 @@ html, body {
     #rectangle2 {
         position: absolute;
         left: 88%;
-        height: 40%;
+    }
+
+    #rectangle3 {
+        right: 90%;
+    }
+
+    #rectangle4 {
+        right: 88%;
     }
 
     /*body section*/
 
     .body-row{
         height: 150%;
-        background-image:
-            linear-gradient(
-                #834545, rgba(169, 68, 66, 0.72)
-            );
+        background-color: #eee;
         border-top-style: solid;
         border-top-width: 1px;
-        border-top-color: white;
+        border-top-color: #eee;
     }
 
     /*about section*/
@@ -128,19 +139,29 @@ html, body {
         bottom: 32%;
     }
 
-    .about-section {
-        height: 50%;
-        width: 90%;
-        left: 5%;
-        margin-top: 3.5%;
-        margin-bottom: 5%;
-        border-style: solid;
-        border-width: 2px;
-        border-color: #834545;
-        background-color: white;
+    .about-header {
+        padding-top: 3%;
     }
 
-    .about-header {
+    .about-section {
+        height: 50%;
+        max-height: 50%;
+        width: 92%;
+        left: 4%;
+        margin-bottom: 5%;
+    }
+
+    .about-inner-section {
+        height: 80%;
+        width: 100%;
+        margin-top: 10%;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: #834545;
+        border-radius: 20px;
+    }
+
+    .sub-header {
         position: absolute;
         right: 45%;
         font-size: 50px;
@@ -149,17 +170,155 @@ html, body {
     /*portfolio section*/
 
     .portfolio-section {
-        height: 50%;
+        height: 75%;
+        max-height: 75%;
         border-top-style: solid;
         border-top-width: 1px;
-        border-top-color: white;
-        background-color: #208A96;
+        border-top-color: #eee;
+        /*background-image: linear-gradient(rgba(32, 138, 150, 0.71), #208A96);*/
     }
 
     .portfolio-inner-section {
-        height: 70%;
+        height: 90%;
         width: 92%;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: #834545;
+        border-radius: 20px;
         margin-left: 4%;
         margin-top: 3.5%;
-        background-color: white;
+        background-color: #eee;
+    }
+
+    .portfolio-item {
+        height: auto;
+        position: absolute;
+        width: 20%;
+        top: 18%;
+    }
+
+    #ajii {
+        left: 21%;
+    }
+
+    #asw {
+        right: 21%;
+    }
+
+    .inside-img {
+        max-height: 100%;
+        max-width: 100%;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #834545;
+        border-radius: 5px;
+    }
+
+    .img-layer{
+        padding-top: 2%;
+        color: transparent;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+    .img-layer:hover {
+        background-color: black;
+        opacity: 0.9;
+        color: white;
+    }
+
+    .img-layer-info {
+        height: 100%;
+        overflow-y: scroll;
+    }
+
+    .img-info-header {
+        font-size: 20px;
+        padding-top: 1%;
+        padding-left: 22%;
+        padding-bottom: 2%;
+        max-height: 100%;
+    }
+
+    .img-info-list{
+        margin-top: 10px;
+        margin-left: -15px; 
+    }
+
+    .img-info-list-s {
+        padding-bottom:15px;
+    }
+
+    /*contact section*/
+
+    .contact-section {
+        height: 50%;
+        max-height: 50%;
+    }
+
+    .contact-inner {
+        position: absolute;
+        width: 90%;
+        height: 100%;
+        left: 5%;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: #834545;
+
+    }
+
+    .lower-rect {
+        background-color: #208A96;
+    }
+
+    .contact-form {
+        width: 35%;
+        position: absolute;
+        top: 15%;
+        left: 32%;
+        height: 40%;
+    }
+
+    .alert {
+        display: inline;
+        display: none;
+    }
+
+    .input-and-error {
+        display: inline;
+    }
+
+    textarea.textarea-form {
+        height: 50%;
+    }
+
+    .form-button {
+        margin-top: 5px;
+    }
+
+    .github {
+        position: absolute;
+        display: inline;
+        bottom: 5%;
+        right:45%;
+    }
+    .github-text{
+        color: black;
+    }
+    .github:hover {
+        cursor: pointer;
+        color: #4078c0;
+    }
+
+    a:hover{
+        text-decoration: none;
+    }
+
+    /*footer section*/
+
+    .footer {
+        height:5%;
+        max-height: 5%;
+        padding-top: 15px;
+        padding-left:5%;
     }
