@@ -66,29 +66,41 @@ $(document).ready(function() {
 
 	})
 
+	//portfolio items flip
+
+	$('.portfolio-item-phone').flip();
+	$('.front').css('position', 'relative');
+
+	$('.portfolio-item-phone').on('click', function(){
+		$(this).find('.portfolio-info-btn').hide().toggleClass('fa-info-circle fa-arrow-circle-left').delay(500).fadeIn();
+	})
+
 	//scroll class change
 
-	$(window).scroll(function() {   
-	    var scroll = $(window).scrollTop();
+	$(window).scroll(function() {
 
-	    if (scroll >= 500) {
+		if ($('.portfolio-item-phone').css('display') == 'none') {   
+		    var scroll = $(window).scrollTop();
 
-	       $('.current').removeClass('current');
-	       $('#aboutlink').addClass('current');
+		    if (scroll >= 500) {
 
-	    }
+		       $('.current').removeClass('current');
+		       $('#aboutlink').addClass('current');
 
-	    if (scroll >= 1000) {
+		    }
 
-	    	$('.current').removeClass('current');
-	    	$('#portfoliolink').addClass('current');
-	    }
+		    if (scroll >= 950) {
 
-	    if (scroll >= 1800) {
+		    	$('.current').removeClass('current');
+		    	$('#portfoliolink').addClass('current');
+		    }
 
-	    	$('.current').removeClass('current');
-	    	$('#contactlink').addClass('current');
-	    }
+		    if (scroll >= 1650) {
+
+		    	$('.current').removeClass('current');
+		    	$('#contactlink').addClass('current');
+		    }
+		}
 	});
 
 	//Click/Scroll Function
@@ -109,11 +121,10 @@ $(document).ready(function() {
 	goToByScroll($(this).attr("id"));           
 	});
 
-	$(".rsvp_ow_link").click(function(e) { 
+	$(".logo").click(function(e) { 
 	// Prevent a page reload when a link is pressed
 	e.preventDefault(); 
 	// Call the scroll function
 	goToByScroll($(this).attr("id"));           
 	});
-
 })

@@ -1,0 +1,68 @@
+/*title section*/	
+
+	.rectangle {
+		height: 30%;
+		top: 12%;
+	}
+
+	.rectangle-small {
+		height: 25%;
+	}
+
+	.title-desc-both {
+		top: 13%;
+	}
+
+	.rectangle1 {
+		left: 91%;
+	}
+
+	.rectangle3 {
+		right: 91%;
+	}
+
+/*about section*/
+
+	#about {
+		bottom:50%;
+	}
+
+/*portfolio section*/
+
+	.portfolio-item-phone {
+        display: inline-block;
+    }
+
+    .portfolio-item-np {
+        display: none;
+    }
+
+    .portfolio-item {
+    	width: 39%;
+    }
+
+/*contact section*/
+
+	.contact-section {
+		height: 30%;
+	}
+
+	.github {
+		margin-top: 4%;
+	}
+
+	.low-rect {
+		height: 55%;
+	}
+
+	.low-rect-sm {
+		height: 45%;
+	}
+/*footer section*/
+
+	.footer {
+	    height: 0;
+	    margin-bottom: 35px;
+	    padding-top: 0;
+	    padding-bottom: 0;
+	}
