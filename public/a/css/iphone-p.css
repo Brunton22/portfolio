@@ -1,32 +1,54 @@
 /*title section*/	
 
 	.header {
-		display: none;
+		min-height: 10%;
+		opacity: 0.9;
 	}
 
-	.phone-header {
+	.phone-menu {
 		display: block;
 	}
 
-	.phone-menu-js {
-		float: right;
-		margin-top: 5%;
+	.menu-header {
+		display: none;
+		text-align: center;
+		padding: 0;
+		width: 100%;
+		margin-top: 0;
+		transform: rotate(180deg);
 	}
 
-	.phone-logo {
-		margin-top: 5%;
+	.menu-list {
+		display: block;
+		float: none;
+		margin: auto;
+		padding-bottom: 8%;
+		transform: rotate(-180deg);
+	}
+
+	#aboutlink {
+		padding-top: 5%;
+	}
+
+	.current {
+		border-style: none;
+	}
+
+	.logo {
+		margin-top: 3%;
 	}
 
 	.top-rectangles {
-		top: 13%;
+		top: 16%;
 	}
 
 	.title-desc-both {
 	    position: relative;
-	    top: 3%;
+	    top: 8%;
 	    width: 68%;
 	    margin: auto;
 	    left: 0%;
+	    padding-top: 18%;
 	}
 
 	.rectangle1 {
@@ -38,7 +60,7 @@
 	}
 
 	.profile-image {
-		top: 25%;
+		top: 44%;
 	}
 
 /*about section*/
@@ -79,7 +101,11 @@
         display: inline-block;
     }
 
-    .portfolio-item-np {
+    #pfolio-items-d {
+    	display: block;
+    }
+
+    #pfolio-items {
         display: none;
     }
 
@@ -93,7 +119,12 @@
 
 	.cv-container {
 		width: 90%;
-		margin: auto;
+		margin: 2% auto 5% auto;
+	}
+
+	#portfolio {
+		position: absolute;
+		bottom:4%;
 	}
 
 /*contact section*/
@@ -107,4 +138,5 @@
 
 	.footer {
 		text-align: center;
+		margin-bottom: 10px;
 	}

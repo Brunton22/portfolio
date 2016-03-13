@@ -1,0 +1,55 @@
+/*title section*/
+
+	.rectangle {
+	    height: 40%;
+	    top: 16%;
+	}
+
+	.rectangle-small {
+		height: 30%;
+	}
+
+	.title-desc-both {
+    	top: 25%;
+	}
+
+	.header {
+		opacity: 0.9;
+	}
+
+/*portfolio section*/
+
+	#portfolio {
+		position: absolute;
+    	bottom: 40px;
+	}
+
+	.portfolio-item-phone {
+        display: inline-block;
+    }
+
+    #pfolio-items-d {
+    	display: block;
+    }
+
+    #pfolio-items {
+        display: none;
+    }
+
+/*contact section*/
+
+	.contact-section {
+		height: 40%;
+	}
+
+	.low-rect {
+		height: 55%;
+	}
+
+	.low-rect-sm {
+		height: 40%;
+	}
+
+	.footer {
+		padding-left: 6.5%;
+	}

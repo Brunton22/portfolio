@@ -1,0 +1,116 @@
+/*title section*/
+
+	.rectangle {
+		top: 26%;
+	}
+	
+	.rectangle1 {
+		left: 95%;
+	}
+
+	.rectangle2 {
+		left: 92%;
+	}
+
+	.rectangle3 {
+		right: 95%;
+	}
+
+	.rectangle4 {
+		right: 92%;
+	}
+
+	.title-desc-both {
+		top: 25%;
+		width: 81%;
+		left: 10%;
+	}
+
+	.menu-header {
+		display: none;
+	}
+
+	.header {
+		min-height: 18%;
+		opacity: 0.9;
+	}
+
+	.title {
+		height: 300px;
+	}
+
+	.menu-header {
+		display: none;
+		text-align: center;
+		padding: 0;
+		width: 100%;
+		margin-top: 0;
+		transform: rotate(180deg);
+	}
+
+	.menu-list {
+		display: block;
+		float: none;
+		margin: auto;
+		padding-bottom: 8%;
+		transform: rotate(-180deg);
+	}
+
+	#aboutlink {
+		padding-top: 5%;
+	}
+
+	.current {
+		border-style: none;
+	}
+
+	.profile-image {
+		top: 29%;
+	}
+
+	.phone-menu {
+		display: block;
+		margin-top: -7.5%;
+	}
+
+/*about section*/
+
+	.about-section {
+		padding-top: 6%;
+	}
+
+/*portfolio section*/
+
+	.portfolio-item {
+		width: 30%;
+	}
+
+	.portfolio-item-phone {
+        display: inline-block;
+    }
+
+    #pfolio-items-d {
+    	display: block;
+    }
+
+    #pfolio-items {
+        display: none;
+    }
+
+    .portfolio-info-btn {
+    	font-size: 1em;
+    }
+
+    .img-info-header {
+    	padding-left: 1%;
+    }
+
+    .portfolio-link {
+        font-size: 14px;
+    }
+
+/*contact section*/
+
+	.contact-form {
+		width: 50%;
+	}

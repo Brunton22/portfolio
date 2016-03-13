@@ -15,10 +15,10 @@ html, body {
     }
 
     .logo {
+        display: inline-block;
         background-image: url('../imgs/logo.png');
         background-repeat: no-repeat;
         height: 56px;
-        position: absolute;
         width: 56px;
         margin-top:1%;
     }
@@ -29,17 +29,18 @@ html, body {
     .header {
         background-image: linear-gradient(rgba(32, 138, 150, 0.71), #208A96);
         min-height: 5%;
+        position: fixed;
     }
 
-    .phone-header {
+    .phone-menu {
         display: none;
-        background-color: #208A96;
-        border-style: none;
+        position: absolute;
+        margin-left: 85%;
+        margin-top: -12%;
     }
 
     .header-text {
         font-family: 'Raleway', sans-serif;
-        /*font-family: 'Josefin Sans', sans-serif;*/
     }
 
     .menu-header {
@@ -77,13 +78,15 @@ html, body {
         width: 141px;
         position: relative;
         margin: auto;
-        top: 80%;
+        top: 42%;
     }
 
     .title-desc-both {
-        position: absolute;
+        position: relative;
         left: 15%;
-        top: 16%;
+        top: 25%;
+        height: 40%;
+        width: 65%;
     }
 
     .title-desc {
@@ -139,7 +142,7 @@ html, body {
         height: auto;
         border-top-style: solid;
         border-top-width: 1px;
-        border-top-color: #eee;
+        border-top-color: #834545;
     }
 
     /*about section*/
@@ -147,10 +150,6 @@ html, body {
     #about {
         position: absolute;
         bottom: 32%;
-    }
-
-    .about-header {
-        padding-top: 3%;
     }
 
     .about-section {
@@ -166,6 +165,7 @@ html, body {
     .about-inner-section {
         height: auto;
         width: 100%;
+        padding-top: 6%;
     }
 
     .sub-header {
@@ -188,6 +188,15 @@ html, body {
     }
 
     /*portfolio section*/
+
+    #portfolio {
+        bottom: 60px;
+        position: absolute;
+    }
+
+    #pfolio-items {
+        display: block;
+    }
 
     .portfolio-section {
         position: relative;
@@ -218,7 +227,7 @@ html, body {
         font-size: 15px;
     }
 
-    .portfolio-item-phone {
+    #pfolio-items-d {
         display: none;
     }
 
@@ -246,8 +255,9 @@ html, body {
         padding-top: 2%;
         color: transparent;
         position: absolute;
-        height: 100%;
+        height: 96%;
         width: 100%;
+        overflow: hidden;
     }
     .img-layer:hover {
         background-color: black;
@@ -258,16 +268,19 @@ html, body {
     .img-layer-phone {
         padding-top: 2%;
         position: absolute;
-        height: 100%;
+        height: 95%;
         width: 100%;
         background-color: black;
         color: white;
+        overflow: hidden;
     }
 
     .img-layer-info {
         height: 100%;
         overflow-y: scroll;
         text-align: left;
+        margin-right: -200px;
+        padding-right: 200px;
     }
 
     .img-info-header {
@@ -293,12 +306,16 @@ html, body {
         width: auto;
         z-index: 2;
         right: 5px;
-        bottom: 5px;
+        top: 1%;
     }
 
     .portfolio-info-back-btn {
         display: none;
         color: white;
+    }
+
+    .git-and-cv {
+        padding-bottom: 2%;
     }
 
     .github {
@@ -325,6 +342,10 @@ html, body {
         margin-bottom: 3%;
     }
 
+    .portfolio-link {
+        font-size: 18px;
+    }
+
     /*contact section*/
 
     .contact-section {
@@ -338,6 +359,7 @@ html, body {
         margin: auto;
         padding-bottom: 5%;
         border-bottom-style: solid;
+        border-radius: 20px;
         border-bottom-width: 1px;
         border-bottom-color: #834545;
 
@@ -359,8 +381,17 @@ html, body {
     }
 
     .alert {
-        display: inline;
+        display: block;
+    }
+
+    .non-r-alert {
         display: none;
+    }
+
+    .email-user-message {
+        text-align: center;
+        margin: auto;
+        width: 40%;
     }
 
     .input-and-error {

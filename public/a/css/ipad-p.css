@@ -10,7 +10,7 @@
 	}
 
 	.title-desc-both {
-		top: 13%;
+		top: 24%;
 	}
 
 	.rectangle1 {
@@ -21,10 +21,23 @@
 		right: 91%;
 	}
 
+	.header {
+		opacity: 0.9;
+	}
+
 /*about section*/
+
+	.about-inner-section {
+		padding-top: 8%;
+	}
 
 	#about {
 		bottom:50%;
+	}
+
+	#portfolio {
+		position: absolute;
+		bottom: 4%;
 	}
 
 /*portfolio section*/
@@ -33,7 +46,11 @@
         display: inline-block;
     }
 
-    .portfolio-item-np {
+    #pfolio-items-d {
+    	display: block;
+    }
+
+    #pfolio-items {
         display: none;
     }
 
@@ -41,7 +58,15 @@
     	width: 39%;
     }
 
+    .git-and-cv {
+    	font-size: 18px;
+    }
+
 /*contact section*/
+
+	.contact-form {
+		width: 55%;
+	}
 
 	.contact-section {
 		height: 30%;
