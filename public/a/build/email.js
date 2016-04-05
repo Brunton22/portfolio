@@ -31,10 +31,8 @@ var validator = require('validator');
 						$('.email-sent').show();
 					}
 					else if (data == 'error') {
-						alert('hi');
-						alert(process.env.seruser);
 						$('.email-sending').hide();
-						$('.email-failed').show();
+						$('.email-failed').sho();
 
 					}
 				});
