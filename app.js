@@ -47,11 +47,8 @@ var smtpTransport = nodemailer.createTransport("SMTP",{
 
 	smtpTransport.sendMail(mailOptions, function(error, info){
     	if(error){
-        console.log('hi');
-        console.log(process.env.seruser);
         	res.end('error');
         	console.log(error);
-          console.log(process.env.seruser);
     	}
 
     	else {
