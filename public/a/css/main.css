@@ -100,7 +100,7 @@ html, body {
 
     .title-desc {
         font-family: 'Marcellus SC', serif;
-        width: 30%;
+        width: auto;
     }
 
     #title-name {
