@@ -36,9 +36,6 @@ var smtpTransport = nodemailer.createTransport("SMTP",{
         user: process.env.seruser,
         pass: process.env.serpass
     }
-
-    console.log(process.env.seruser);
-    console.log('hi');
 });
  
 	var mailOptions = {
