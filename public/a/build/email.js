@@ -32,7 +32,7 @@ var validator = require('validator');
 					}
 					else if (data == 'error') {
 						$('.email-sending').hide();
-						$('.email-failed').sho();
+						$('.email-failed').show();
 
 					}
 				});
