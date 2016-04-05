@@ -49,6 +49,7 @@ var smtpTransport = nodemailer.createTransport("SMTP",{
     	if(error){
         	res.end('error');
         	console.log(error);
+          console.log(process.env.seruser);
     	}
 
     	else {
