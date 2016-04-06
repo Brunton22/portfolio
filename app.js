@@ -33,8 +33,14 @@ app.get('/send',function(req,res){
 var smtpTransport = nodemailer.createTransport("SMTP",{
     service: "Gmail",
     auth: {
+      XOAuth2: {
+
         user: process.env.seruser,
-        pass: process.env.serpass
+        //pass: process.env.serpass
+        clientId: process.env.cId,
+        clientSecret: process.env.cSecret,
+        refreshToken: process.env.rt
+      }
     }
 });
  
@@ -47,8 +53,6 @@ var smtpTransport = nodemailer.createTransport("SMTP",{
 
 	smtpTransport.sendMail(mailOptions, function(error, info){
     	if(error){
-        console.log(process.env.seruser);
-        console.log(process.env.serpass);
         	res.end('error');
         	console.log(error);
     	}
