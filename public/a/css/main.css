@@ -96,6 +96,7 @@ html, body {
         top: 25%;
         height: 40%;
         width: 65%;
+        visibility: hidden;
     }
 
     .title-desc {
@@ -126,6 +127,7 @@ html, body {
 
     .top-rectangles {
         background-image: url('../imgs/body-background.png');
+        visibility: hidden;
     }
 
 
@@ -315,7 +317,7 @@ html, body {
         width: auto;
         z-index: 2;
         right: 5px;
-        top: 1%;
+        bottom: 30px;
     }
 
     .portfolio-info-back-btn {

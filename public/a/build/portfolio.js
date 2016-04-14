@@ -60,7 +60,21 @@ var portfolioinfo = [
               <li className='img-info-list-s'>Website is password protected with three different passwords for day guests, night guests and the bride and groom. Guests login with the password they were given and can then fill out their RSVP form as well as get information regarding the wedding. The Bride and Groom can log in to another section of the site where they can view all the data concerning the guests RSVP including their meals and whether they can attend.</li>
               <li className='img-info-list-s'>Designed with HTML, CSS, PHP, Javascript/Jquery and SQL.</li>
               <li className='img-info-list-s'>Website is responsive and can be viewed on all mobiles, tablets, laptops and PCs.</li>
-            </ul>}
+            </ul>
+  },
+
+  { key: 3,
+    link: 'a/imgs/sp.png',
+    header: 'Puzzle Website',
+    altlink: 'www.simplypuzzle.com',
+    actuallink: 'http://www.simplypuzzle.com',
+    liinfo: <ul className='img-info-list'>
+              <li className='img-info-list-s'>Puzzle Website.</li>
+              <li className='img-info-list-s'>Constantly updating, with new puzzles being added</li>
+              <li className='img-info-list-s'>Designed with NodeJS, AngularJS, ExpressJS, HTML, CSS</li>
+              <li className='img-info-list-s'>Website is responsive and can be viewed on all mobiles, tablets, laptops and PCs.</li>
+            </ul>
+  }
 ]
 
 var portfolioItems = portfolioinfo.map(function(port) {return React.createElement(PortfolioComponent, port) })
