@@ -69,8 +69,8 @@ var portfolioinfo = [
     altlink: 'www.simplypuzzle.com',
     actuallink: 'http://www.simplypuzzle.com',
     liinfo: <ul className='img-info-list'>
-              <li className='img-info-list-s'>Puzzle Website.</li>
-              <li className='img-info-list-s'>Constantly updating, with new puzzles being added</li>
+              <li className='img-info-list-s'>A website consisting of anagram puzzles, odd one out puzzles and math puzzles.</li>
+              <li className='img-info-list-s'>Constantly updating with new puzzles, that can be added into the website easily and quickly.</li>
               <li className='img-info-list-s'>Designed with NodeJS, AngularJS, ExpressJS, HTML, CSS</li>
               <li className='img-info-list-s'>Website is responsive and can be viewed on all mobiles, tablets, laptops and PCs.</li>
             </ul>
