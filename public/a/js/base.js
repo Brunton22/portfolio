@@ -1,13 +1,5 @@
 $(document).ready(function() {
 
-	function load_title() {
-
-		$('.top-rectangles').css("visibility", "visible").addClass('animated slideInDown');
-		$('.title-desc-both').css("visibility", "visible").addClass(' animated lightSpeedIn');
-	}
-
-	setTimeout(load_title, 800);
-
 	$('.menu-list').on('click', function(){
 
 		$('.menu-list').removeClass('current');
