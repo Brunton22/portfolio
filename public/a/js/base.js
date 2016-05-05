@@ -7,6 +7,11 @@ $(document).ready(function() {
 
 	});
 
+	//load header image
+	$(".title").load(function() {
+  		alert('loaded');
+	})
+
 	//show menu phone
 
 	$('.phone-menu').on('click', function(){
