@@ -48,9 +48,17 @@
 		border-style: none;
 	}
 
-	.rectangle {
+	.top-rectangles {
+		top: 24%;
+	}
+
+	.lower-rect {
 		top: 19%;
 	}
+
+	/*.rectangle {
+		top: 19%;
+	}*/
 
 	.rectangle1 {
 		left: 92%;
