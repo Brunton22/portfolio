@@ -1,7 +1,7 @@
 /*title section*/
 
 	.rectangle {
-		top: 26%;
+		top: 20%;
 	}
 	
 	.rectangle1 {
@@ -21,7 +21,7 @@
 	}
 
 	.title-desc-both {
-		top: 25%;
+		top: 18%;
 		width: 81%;
 		left: 10%;
 	}
@@ -30,13 +30,17 @@
 		display: none;
 	}
 
+	.navbar-default {
+		background: #191919;
+	}
+
 	.header {
 		min-height: 18%;
-		opacity: 0.9;
 	}
 
 	.title {
-		height: 300px;
+		/*height: 300px;*/
+		height: 95%;
 	}
 
 	.menu-header {
@@ -70,8 +74,19 @@
 
 	.phone-menu {
 		display: block;
-		margin-top: -7.5%;
+	    margin-top: 3%;
+    	margin-left: 90%;
 	}
+
+	#title-name {
+        width: auto;
+        font-size: 50px;
+    }
+
+    #title-wd {
+        width: auto;
+        font-size: 35px;
+    }
 
 /*about section*/
 

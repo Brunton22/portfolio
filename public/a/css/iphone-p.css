@@ -2,7 +2,6 @@
 
 	.header {
 		min-height: 10%;
-		opacity: 0.9;
 	}
 
 	.phone-menu {
@@ -18,12 +17,18 @@
 		transform: rotate(180deg);
 	}
 
+	.navbar-default {
+		background: #191919;
+	}
+
 	.menu-list {
+		color: #FFFFFF;
 		display: block;
 		float: none;
 		margin: auto;
 		padding-bottom: 8%;
 		transform: rotate(-180deg);
+		width: 50%;
 	}
 
 	#aboutlink {
@@ -62,6 +67,16 @@
 	.profile-image {
 		top: 44%;
 	}
+
+	#title-name {
+        width: auto;
+        font-size: 50px;
+    }
+
+    #title-wd {
+        width: auto;
+        font-size: 35px;
+    }
 
 /*about section*/
 

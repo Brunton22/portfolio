@@ -10,7 +10,7 @@
 	}
 
 	.title-desc-both {
-		top: 24%;
+		top: 12%;
 	}
 
 	.rectangle1 {
@@ -21,18 +21,10 @@
 		right: 91%;
 	}
 
-	.header {
-		opacity: 0.9;
-	}
-
 /*about section*/
 
 	.about-inner-section {
 		padding-top: 8%;
-	}
-
-	#about {
-		bottom:50%;
 	}
 
 	#portfolio {
