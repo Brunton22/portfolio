@@ -43,7 +43,7 @@ $(document).ready(function() {
 			       	$('#aboutlink').addClass('current');
 			    }
 
-			    if ( $(window).scrollTop() > (topofheader + div_about_height + div_pfolio_height - 350) ) {
+			    if ( $(window).scrollTop() > (topofheader + div_about_height + div_pfolio_height - 380) ) {
 					
 					$('.current').removeClass('current');
 			       	$('#portfoliolink').addClass('current');
