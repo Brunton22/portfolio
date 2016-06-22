@@ -66,7 +66,7 @@ $(document).ready(function() {
 
 	    	if ( $(window).scrollTop() > (topofheader + div_title_height - 50) ) {
 	       		$('.navbar-default').css({
-	       			'background': '#191919'
+	       			'background': '#2D2D2D'
 	   			});
 	   		}
 
