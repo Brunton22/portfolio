@@ -114,7 +114,7 @@ html, body {
 
     .title-desc-both {
         /*color: #eee;*/
-        color: #151515;
+        color: #2D2D2D;
         position: relative;
         left: 15%;
         top: 20%;
@@ -152,7 +152,7 @@ html, body {
 
     .top-rectangles {
         /*background-image: url('../imgs/body-background1.png');*/
-        background-color: #151515;
+        background-color: #2D2D2D;
         visibility: hidden;
     }
 
