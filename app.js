@@ -64,6 +64,7 @@ var smtpTransport = nodemailer.createTransport("SMTP",{
 	});
 });
 
+app.use(express.compress()); 
 app.use(express.favicon(__dirname + '/public/a/imgs/logo.ico'));
 app.use(express.static(__dirname + '/public'));
 
