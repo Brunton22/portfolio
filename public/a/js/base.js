@@ -66,7 +66,7 @@ $(document).ready(function() {
 
 	    	if ( $(window).scrollTop() > (topofheader + div_title_height - 50) ) {
 	       		$('.navbar-default').css({
-	       			'background': '#2D2D2D'
+	       			'background': '#000000'
 	   			});
 	   		}
 
@@ -82,7 +82,6 @@ $(document).ready(function() {
 	function goToByScroll(id){
 
 		var menu_click = 1;
-		console.log(menu_click)
 		setTimeout( menu_click_off, 1000);
 
 		id = id.replace("link", "");

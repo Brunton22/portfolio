@@ -6,7 +6,7 @@ html, body {
     /*title section*/
 
     .title {
-        background: ##25bb8e;
+        background: #25bb8e;
         /*background-image: url("../imgs/ZenBG-1.png"), url("../imgs/ZenBG-2.png");*/
         /*background-repeat: repeat-x, repeat;
         /*height: 550px;/*
@@ -114,7 +114,7 @@ html, body {
 
     .title-desc-both {
         /*color: #eee;*/
-        color: #2D2D2D;
+        color: #000000;
         position: relative;
         left: 15%;
         top: 20%;
@@ -152,7 +152,7 @@ html, body {
 
     .top-rectangles {
         /*background-image: url('../imgs/body-background1.png');*/
-        background-color: #2D2D2D;
+        background-color: #000000;
         visibility: hidden;
     }
 
@@ -352,6 +352,9 @@ html, body {
 
     .git-and-cv {
         padding-bottom: 2%;
+        position: relative;
+        width: 175px;
+        margin: auto;
     }
 
     .github {
@@ -360,10 +363,8 @@ html, body {
         margin: auto;
         text-align: center;
     }
-    .github-text{
-        color: black;
-    }
-    .github-inner:hover {
+    
+    .github:hover {
         cursor: pointer;
         color: #4078c0;
     }
