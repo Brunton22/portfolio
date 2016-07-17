@@ -11,9 +11,9 @@ $(document).ready(function() {
 	});
 
 	//load header image
-	$(".title").load(function() {
-  		alert('loaded');
-	})
+	//$(".title").load(function() {
+  	//	alert('loaded');
+	//})
 
 	//show menu phone
 
