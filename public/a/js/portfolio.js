@@ -19177,8 +19177,8 @@ var PortfolioComponent_d = React.createClass({
 var portfolioinfo = [{ key: 1,
   link: 'a/imgs/ajii.png',
   header: 'Travel Website',
-  altlink: 'www.ajourneyinimages.com',
-  actuallink: 'http://www.ajourneyinimages.com',
+  altlink: 'www.journeyinimages.com',
+  actuallink: 'http://www.journeyinimages.com',
   liinfo: React.createElement(
     'ul',
     { className: 'img-info-list' },

@@ -176,9 +176,6 @@ html, body {
 
     .body-row{
         height: auto;
-        border-top-style: solid;
-        border-top-width: 1px;
-        border-top-color: #834545;
     }
 
     /*about section*/
@@ -329,7 +326,7 @@ html, body {
 
     .img-info-list{
         margin-top: 10px;
-        margin-left: -20px;
+        margin-left: -10px;
     }
 
     .img-info-list-s {
