@@ -27,9 +27,14 @@ $(document).ready(function() {
 		   	}
 
 		   	else {
-		   		$('.navbar-default').css({
-		       		'background': 'transparent'
-		   		});
+
+		   		function hide_navbar_bg () {
+		   			$('.navbar-default').css({
+		       			'background': 'transparent'
+		   			});
+		   		}
+
+		   		setTimeout(hide_navbar_bg, 350)
 		   	}
 		}
 
@@ -64,7 +69,7 @@ $(document).ready(function() {
 			       	$('#aboutlink').addClass('current');
 			    }
 
-			    if ( scrolltop > (topofheader + div_about_height + div_pfolio_height - 380) ) {
+			    if ( scrolltop > (topofheader + div_about_height + div_pfolio_height - 450) ) {
 					
 					$('.current').removeClass('current');
 			       	$('#portfoliolink').addClass('current');

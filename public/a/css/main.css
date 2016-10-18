@@ -131,11 +131,13 @@ html, body {
     #title-name {
         width: auto;
         font-size: 70px;
+        visibility: hidden;
     }
 
     #title-wd {
         width: auto;
         font-size: 45px;
+        visibility: hidden;
     }
 
     .rectangle {
@@ -350,23 +352,29 @@ html, body {
     .git-and-cv {
         padding-bottom: 2%;
         position: relative;
-        width: 175px;
+        width: auto;
         margin: auto;
     }
 
     .github {
         position: relative;
-        width: 100%;
+        width: auto;
         margin: auto;
         text-align: center;
     }
 
-    .github:hover {
+    .github-inner:hover {
         cursor: pointer;
         color: #4078c0;
     }
 
-    a:hover{
+    .github-inner:hover a{
+        cursor: pointer;
+        text-decoration: none;
+        color: #4078c0;
+    }
+
+    .github-inner:after a {
         text-decoration: none;
     }
 
@@ -378,6 +386,10 @@ html, body {
 
     .portfolio-link {
         font-size: 18px;
+    }
+
+    a {
+        color: #333333;
     }
 
     /*contact section*/
