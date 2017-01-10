@@ -45,10 +45,6 @@ html, body {
         position: fixed;
     }
 
-    .navbar {
-        border: 0;
-    }
-
     .navbar-default {
         /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,45484d+100 */
         /*background: #000000; /* Old browsers */
@@ -58,6 +54,7 @@ html, body {
         /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#45484d',GradientType=0 ); /* IE6-9 */
         /*border-color: #B3B2B2;*/
         background: transparent;
+        border: none;
     }
 
     .phone-menu {
@@ -272,7 +269,7 @@ html, body {
 
     .portfolio-item {
         position: relative;
-        width: 22%;
+        width: 20%;
         margin-left: 5%;
         margin-right: 5%;
     }
@@ -293,6 +290,13 @@ html, body {
         height: 96%;
         width: 100%;
         overflow: hidden;
+    }
+
+    .img-layer {
+        -webkit-transition: all 500ms linear 0.2s;
+        -moz-transition: all 500ms linear 0.2s;
+        -o-transition: all color 500ms linear 0.2s;
+        transition: all 500ms linear 0.2s;
     }
     .img-layer:hover {
         background-color: black;
@@ -462,6 +466,10 @@ html, body {
     }
 
     /*footer section*/
+
+    .footer-info {
+        text-align: center;
+    }
 
     .footer {
         height:5%;
