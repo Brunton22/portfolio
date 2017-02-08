@@ -43,10 +43,10 @@ var portfolioinfo = [
     altlink: 'www.ajourneyinimages.com',
     actuallink: 'http://www.ajourneyinimages.com',
     liinfo: <ul className='img-info-list'>
-              <li className='img-info-list-s'>Website documenting travels through the means of images.</li>
-              <li className='img-info-list-s'>Fully responsive website for mobiles, tablets, laptops and PCs.</li>
-              <li className='img-info-list-s'>Custom made image slider that can be used with arrows, arrow keys or swipe on mobile and tablet.</li>
+              <li className='img-info-list-s'>Website documenting travels through the use of images.</li>
+              <li className='img-info-list-s'>Custom made polaroid image slider.</li>
               <li className='img-info-list-s'>Designed using HTML, PHP, CSS, Javascript/Jquery and SQL.</li>
+              <li className='img-info-list-s'>Fully responsive website.</li>
             </ul>
   },
 
@@ -56,10 +56,10 @@ var portfolioinfo = [
     altlink: 'www.alexsophiewedding.co.uk',
     actuallink: 'http://www.alexsophiewedding.co.uk',
     liinfo: <ul className='img-info-list'>
-              <li className='img-info-list-s'>A wedding invitational website where people can access the website to view information about the wedding and also RSVP to the wedding.</li>
+              <li className='img-info-list-s'>A wedding invitational website where guests and hosts can access the website to view information about the wedding and also RSVP to the wedding.</li>
               <li className='img-info-list-s'>Website is password protected with three different passwords for day guests, night guests and the bride and groom. Guests login with the password they were given and can then fill out their RSVP form as well as get information regarding the wedding. The Bride and Groom can log in to another section of the site where they can view all the data concerning the guests RSVP including their meals and whether they can attend.</li>
               <li className='img-info-list-s'>Designed with HTML, CSS, PHP, Javascript/Jquery and SQL.</li>
-              <li className='img-info-list-s'>Website is responsive and can be viewed on all mobiles, tablets, laptops and PCs.</li>
+              <li className='img-info-list-s'>Fully responsive website.</li>
             </ul>
   },
 
@@ -71,8 +71,8 @@ var portfolioinfo = [
     liinfo: <ul className='img-info-list'>
               <li className='img-info-list-s'>A website consisting of anagram puzzles, odd one out puzzles and math puzzles.</li>
               <li className='img-info-list-s'>Constantly updating with new puzzles, that can be added into the website easily and quickly.</li>
-              <li className='img-info-list-s'>Designed with Node.JS, AngularJS, Express, HTML, CSS</li>
-              <li className='img-info-list-s'>Website is responsive and can be viewed on all mobiles, tablets, laptops and PCs.</li>
+              <li className='img-info-list-s'>Designed with NodeJS, Angular, Express, HTML and CSS</li>
+              <li className='img-info-list-s'>Fully responsive website.</li>
             </ul>
   }
 ]

@@ -16,7 +16,7 @@ module.exports = function (grunt) {
       					'public/a/css/main.min.css': 'public/a/css/main.css'
     				},
   			}
-		}
+		},
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-uglify');
