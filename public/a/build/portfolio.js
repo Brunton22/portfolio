@@ -40,8 +40,8 @@ var portfolioinfo = [
   { key: 1, 
     link: 'a/imgs/ajii.png', 
     header: 'Travel Website', 
-    altlink: 'www.ajourneyinimages.com',
-    actuallink: 'http://www.ajourneyinimages.com',
+    altlink: 'www.journeyinimages.com',
+    actuallink: 'http://www.journeyinimages.com',
     liinfo: <ul className='img-info-list'>
               <li className='img-info-list-s'>Website documenting travels through the use of images.</li>
               <li className='img-info-list-s'>Custom made polaroid image slider.</li>
