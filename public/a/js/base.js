@@ -22,7 +22,7 @@ $(document).ready(function() {
 			if ( scrolltop > (topofheader + div_title_height - 50) ) {
 
 				$('.navbar-default').css({
-		       		'background': '#000000'
+		       		'background': 'rgb(15, 15, 15)'
 		   		});
 		   	}
 
@@ -40,7 +40,7 @@ $(document).ready(function() {
 
 		else {
 			$('.navbar-default').css({
-	       		'background': '#000000'
+	       		'background': 'rgb(15, 15, 15)'
 	   		});
 		}
 
@@ -91,14 +91,14 @@ $(document).ready(function() {
 	    if ( scrolltop > (topofheader + div_title_height - 50) ) {
 
 	    	$('.navbar-default').css({
-	       		'background': '#000000'
+	       		'background': 'rgb(15, 15, 15)'
 	   		});
 	   	}
 
 	    else {
 	    	if ( ($('.phone-menu').css('display') == 'block') && ( $('.menu-header').css('display') == 'block') ) {
 	    		
-	    		$('.navbar-default').css('background', '#000000');
+	    		$('.navbar-default').css('background', 'rgb(15, 15, 15)');
 	    	}
 
 	    	else {
