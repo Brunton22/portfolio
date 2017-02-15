@@ -134,11 +134,12 @@ $(document).ready(function() {
 
 			$('.menu-header').slideToggle();
 		}
+		$('.hamburger').toggleClass('is-active');
 	// Prevent a page reload when a link is pressed
 		e.preventDefault(); 
 	// Call the scroll function
 		goToByScroll($(this).attr("id"));           
-		});
+	});
 
 		$(".logo").click(function(e) { 
 	// Prevent a page reload when a link is pressed
