@@ -59,11 +59,9 @@ html, body {
 
     .phone-menu {
         display: none;
-        position: absolute;
-        margin-left: 85%;
-        margin-top: 5%;
         color: #eee;
         z-index: 1;
+        float:right;
     }
 
     .header-text {

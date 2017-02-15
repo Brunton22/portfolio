@@ -13,6 +13,7 @@ $(document).ready(function() {
 
 	$('.phone-menu').on('click', function() {
 
+		$('.hamburger').toggleClass('is-active');
 		var scrolltop = $(window).scrollTop();
 		var topofheader = $(".title").offset().top;
 		var div_title_height = $('.title').height();
